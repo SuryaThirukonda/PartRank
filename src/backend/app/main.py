@@ -7,12 +7,22 @@ import schemas
 import crud
 import models
 
+#allow other ports
+from fastapi.middleware.cors import CORSMiddleware
+
 #create the tables
 models.Base.metadata.create_all(bind=engine)
 
 
 #make fastAPI
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173", "http://localhost:5174", "http://localhost:5175"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 @app.get("/")

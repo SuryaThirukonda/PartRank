@@ -4,7 +4,8 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-url = "https://www.videocardbenchmark.net/high_end_gpus.html"
+url = "https://www.videocardbenchmark.net/mid_range_gpus.html"
+url2 = "https://www.videocardbenchmark.net/high_end_gpus.html"
 
 #act as browser to avoid being blocked by the website
 headers = {

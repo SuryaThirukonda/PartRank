@@ -1,0 +1,25 @@
+/* Main page container */
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 32px;
+  font-family: Arial, sans-serif;
+}
+
+/* Container for cards */
+.card-list {
+  display: grid;
+  gap: 16px;
+}
+
+/* Individual card */
+.card {
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+/* Error text */
+.error {
+  color: red;
+}

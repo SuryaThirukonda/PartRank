@@ -1,12 +1,27 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
+from dotenv import load_dotenv
+import os
 
-DATABASE_URL = "sqlite:///./partrank.db"
+
+load_dotenv()
+
+DATABASE_URL = os.getenv("NEON_CONNECTION_STRING")
+if not DATABASE_URL:
+    raise ValueError("no db") 
+
+DATABASE_URL = DATABASE_URL.replace("postgresql://", "postgresql+psycopg2://")
+
+#DATABASE_URL = "sqlite:///./partrank.db"
 
 engine = create_engine(
     DATABASE_URL,
+
     #avoids errors for sqlite specifically, not needed for other databases
-    connect_args={"check_same_thread": False}
+    #connect_args={"check_same_thread": False},
+
+    #checks if postgres connection is alive before using
+    pool_pre_ping=True
 )
 
 SessionLocal = sessionmaker(
@@ -14,6 +29,7 @@ SessionLocal = sessionmaker(
     autoflush=False, 
     bind=engine
 )
+
 #you pass in this Base to your models.py file so you can create tables
 Base = declarative_base()
 
