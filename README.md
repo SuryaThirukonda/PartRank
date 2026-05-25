@@ -11,6 +11,6 @@ This tool allows for easy pc building while checking compatibility, and ranking 
 * python -m uvicorn main:app --reload
 
 # Frontend
-cd src\frontend
+* cd src\frontend
 * npm install
 * npm run dev
