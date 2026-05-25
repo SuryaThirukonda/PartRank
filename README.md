@@ -5,10 +5,12 @@ This tool allows for easy pc building while checking compatibility, and ranking 
 ## Running Commands
 
 # Backend
-FastAPI
-cd src\backend
-python -m uvicorn main:app --reload
+* FastAPI
+* cd src\backend
+* pip install -r requirements.txt
+* python -m uvicorn main:app --reload
 
 # Frontend
-npm install
-npm run dev
+cd src\frontend
+* npm install
+* npm run dev
