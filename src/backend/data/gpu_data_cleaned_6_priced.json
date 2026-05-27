@@ -1,0 +1,1378 @@
+[
+  {
+    "name": "GeForce RTX 5090",
+    "price": 3899.95,
+    "performance": 38958,
+    "id": 4,
+    "created_at": "2026-05-25T01:02:14.311769",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 4090",
+    "price": 3399.99,
+    "performance": 38072,
+    "id": 6,
+    "created_at": "2026-05-25T01:02:15.147124",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 5080",
+    "price": 1319.99,
+    "performance": 35693,
+    "id": 7,
+    "created_at": "2026-05-25T01:02:15.567802",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 4080",
+    "price": 1699.99,
+    "performance": 34450,
+    "id": 8,
+    "created_at": "2026-05-25T01:02:15.984277",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 4080 SUPER",
+    "price": 1479.95,
+    "performance": 34262,
+    "id": 9,
+    "created_at": "2026-05-25T01:02:16.410566",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 5070 Ti",
+    "price": 979.99,
+    "performance": 32421,
+    "id": 16,
+    "created_at": "2026-05-25T01:02:19.496837",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 4070 Ti SUPER",
+    "price": 1701.19,
+    "performance": 31817,
+    "id": 17,
+    "created_at": "2026-05-25T01:02:20.029687",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 4070 Ti",
+    "price": 791.83,
+    "performance": 31566,
+    "id": 18,
+    "created_at": "2026-05-25T01:02:20.615117",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 7900 XTX",
+    "price": 1049.99,
+    "performance": 31416,
+    "id": 19,
+    "created_at": "2026-05-25T01:02:21.087693",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 4070 SUPER",
+    "price": 869.0,
+    "performance": 29955,
+    "id": 22,
+    "created_at": "2026-05-25T01:02:22.414986",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 3090 Ti",
+    "price": 1799.99,
+    "performance": 29277,
+    "id": 23,
+    "created_at": "2026-05-25T01:02:22.855679",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 7900 XT",
+    "price": 939.99,
+    "performance": 29034,
+    "id": 24,
+    "created_at": "2026-05-25T01:02:23.265169",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 5070",
+    "price": 632.42,
+    "performance": 28735,
+    "id": 25,
+    "created_at": "2026-05-25T01:02:23.698738",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 6950 XT",
+    "price": 1098.0,
+    "performance": 28078,
+    "id": 31,
+    "created_at": "2026-05-25T01:02:26.233284",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 9070 XT",
+    "price": 669.99,
+    "performance": 26907,
+    "id": 39,
+    "created_at": "2026-05-25T01:02:29.747872",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 4070",
+    "price": 749.99,
+    "performance": 26895,
+    "id": 40,
+    "created_at": "2026-05-25T01:02:30.170045",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 3080 Ti",
+    "price": 818.82,
+    "performance": 26760,
+    "id": 41,
+    "created_at": "2026-05-25T01:02:30.593107",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 6900 XT",
+    "price": 669.99,
+    "performance": 26687,
+    "id": 42,
+    "created_at": "2026-05-25T01:02:31.120822",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 3090",
+    "price": 1750.0,
+    "performance": 26535,
+    "id": 44,
+    "created_at": "2026-05-25T01:02:32.487509",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 9070",
+    "price": 599.99,
+    "performance": 25402,
+    "id": 48,
+    "created_at": "2026-05-25T01:02:34.186899",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 6800 XT",
+    "price": 439.0,
+    "performance": 25058,
+    "id": 50,
+    "created_at": "2026-05-25T01:02:35.017137",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 3080",
+    "price": 648.18,
+    "performance": 25008,
+    "id": 51,
+    "created_at": "2026-05-25T01:02:35.435915",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 7800 XT",
+    "price": 569.99,
+    "performance": 24362,
+    "id": 53,
+    "created_at": "2026-05-25T01:02:36.282752",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 3070 Ti",
+    "price": 497.5,
+    "performance": 23226,
+    "id": 62,
+    "created_at": "2026-05-25T01:02:40.359751",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 7700 XT",
+    "price": 409.99,
+    "performance": 22693,
+    "id": 67,
+    "created_at": "2026-05-25T01:02:42.462991",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 5060 Ti 16GB",
+    "price": 577.03,
+    "performance": 22634,
+    "id": 68,
+    "created_at": "2026-05-25T01:02:42.883535",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 4060 Ti 16GB",
+    "price": 459.99,
+    "performance": 22622,
+    "id": 70,
+    "created_at": "2026-05-25T01:02:43.717921",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 4060 Ti",
+    "price": 451.28,
+    "performance": 22609,
+    "id": 71,
+    "created_at": "2026-05-25T01:02:44.143872",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 5060 Ti 8GB",
+    "price": 409.99,
+    "performance": 22204,
+    "id": 72,
+    "created_at": "2026-05-25T01:02:44.563888",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 3070",
+    "price": 374.73,
+    "performance": 22112,
+    "id": 74,
+    "created_at": "2026-05-25T01:02:45.397022",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 6800",
+    "price": 449.99,
+    "performance": 22042,
+    "id": 76,
+    "created_at": "2026-05-25T01:02:46.240257",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 2080 Ti",
+    "price": 785.0,
+    "performance": 21454,
+    "id": 80,
+    "created_at": "2026-05-25T01:02:48.028503",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 5060",
+    "price": 339.99,
+    "performance": 20773,
+    "id": 84,
+    "created_at": "2026-05-25T01:02:49.933828",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 6750 XT",
+    "price": 549.52,
+    "performance": 20716,
+    "id": 85,
+    "created_at": "2026-05-25T01:02:50.364520",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 3060 Ti",
+    "price": 377.08,
+    "performance": 20257,
+    "id": 89,
+    "created_at": "2026-05-25T01:02:52.033759",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 9060 XT 16GB",
+    "price": 439.99,
+    "performance": 20117,
+    "id": 92,
+    "created_at": "2026-05-25T01:02:53.282446",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 9060 XT 8GB",
+    "price": 349.99,
+    "performance": 19805,
+    "id": 96,
+    "created_at": "2026-05-25T01:02:54.975752",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 6700 XT",
+    "price": 499.99,
+    "performance": 19733,
+    "id": 98,
+    "created_at": "2026-05-25T01:02:55.820598",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 4060",
+    "price": 416.39,
+    "performance": 19506,
+    "id": 101,
+    "created_at": "2026-05-25T01:02:57.064836",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 2080 SUPER",
+    "price": 775.0,
+    "performance": 19441,
+    "id": 103,
+    "created_at": "2026-05-25T01:02:57.917970",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 1080 Ti",
+    "price": 395.0,
+    "performance": 18592,
+    "id": 113,
+    "created_at": "2026-05-25T01:03:02.439526",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 2080",
+    "price": 278.98,
+    "performance": 18589,
+    "id": 114,
+    "created_at": "2026-05-25T01:03:02.859527",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 2070 SUPER",
+    "price": 332.0,
+    "performance": 18138,
+    "id": 118,
+    "created_at": "2026-05-25T01:03:04.525314",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 7600 XT",
+    "price": 369.99,
+    "performance": 17302,
+    "id": 128,
+    "created_at": "2026-05-25T01:03:08.835458",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 6650 XT",
+    "price": 299.99,
+    "performance": 17119,
+    "id": 131,
+    "created_at": "2026-05-25T01:03:10.083459",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 5050",
+    "price": 289.99,
+    "performance": 17114,
+    "id": 132,
+    "created_at": "2026-05-25T01:03:10.503457",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 3060",
+    "price": 329.0,
+    "performance": 16973,
+    "id": 136,
+    "created_at": "2026-05-25T01:03:12.188086",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 3060 12GB",
+    "price": 495.0,
+    "performance": 16729,
+    "id": 141,
+    "created_at": "2026-05-25T01:03:14.319303",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 7600",
+    "price": 279.99,
+    "performance": 16492,
+    "id": 144,
+    "created_at": "2026-05-25T01:03:15.568567",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 2060 SUPER",
+    "price": 239.99,
+    "performance": 16461,
+    "id": 145,
+    "created_at": "2026-05-25T01:03:15.992832",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 6600 XT",
+    "price": 324.97,
+    "performance": 16447,
+    "id": 146,
+    "created_at": "2026-05-25T01:03:16.424590",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon VII",
+    "price": 1899.95,
+    "performance": 16252,
+    "id": 150,
+    "created_at": "2026-05-25T01:03:18.103896",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 5700 XT",
+    "price": 599.0,
+    "performance": 16072,
+    "id": 154,
+    "created_at": "2026-05-25T01:03:19.760463",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 2070",
+    "price": 279.73,
+    "performance": 16063,
+    "id": 155,
+    "created_at": "2026-05-25T01:03:20.175558",
+    "updated_at": null
+  },
+  {
+    "name": "Intel Arc B580",
+    "price": 249.0,
+    "performance": 15976,
+    "id": 157,
+    "created_at": "2026-05-25T01:03:21.002606",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 1080",
+    "price": 209.97,
+    "performance": 15605,
+    "id": 162,
+    "created_at": "2026-05-25T01:03:23.086962",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 6600",
+    "price": 423.0,
+    "performance": 15058,
+    "id": 174,
+    "created_at": "2026-05-25T01:03:28.047768",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 1070 Ti",
+    "price": 318.02,
+    "performance": 14670,
+    "id": 186,
+    "created_at": "2026-05-25T01:03:33.002403",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 5700",
+    "price": 585.0,
+    "performance": 14234,
+    "id": 190,
+    "created_at": "2026-05-25T01:03:34.671169",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 2060",
+    "price": 235.07,
+    "performance": 14091,
+    "id": 192,
+    "created_at": "2026-05-25T01:03:35.538971",
+    "updated_at": null
+  },
+  {
+    "name": "Intel Arc B570",
+    "price": 219.0,
+    "performance": 14089,
+    "id": 193,
+    "created_at": "2026-05-25T01:03:35.952729",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 980 Ti",
+    "price": 399.99,
+    "performance": 13638,
+    "id": 208,
+    "created_at": "2026-05-25T01:03:42.221215",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 1070",
+    "price": 289.0,
+    "performance": 13513,
+    "id": 212,
+    "created_at": "2026-05-25T01:03:43.885153",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 5600 XT",
+    "price": 530.0,
+    "performance": 13400,
+    "id": 216,
+    "created_at": "2026-05-25T01:03:45.549988",
+    "updated_at": null
+  },
+  {
+    "name": "Intel Arc A770",
+    "price": 389.0,
+    "performance": 13352,
+    "id": 219,
+    "created_at": "2026-05-25T01:03:46.799933",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 1660 SUPER",
+    "price": 189.99,
+    "performance": 12680,
+    "id": 234,
+    "created_at": "2026-05-25T01:03:53.077666",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 1660 Ti",
+    "price": 199.99,
+    "performance": 12623,
+    "id": 238,
+    "created_at": "2026-05-25T01:03:54.753175",
+    "updated_at": null
+  },
+  {
+    "name": "Intel Arc A750",
+    "price": 279.0,
+    "performance": 12621,
+    "id": 239,
+    "created_at": "2026-05-25T01:03:55.170546",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 3050 8GB",
+    "price": 249.99,
+    "performance": 12493,
+    "id": 243,
+    "created_at": "2026-05-25T01:03:56.833387",
+    "updated_at": null
+  },
+  {
+    "name": "Intel Arc A580",
+    "price": 199.99,
+    "performance": 12041,
+    "id": 254,
+    "created_at": "2026-05-25T01:04:01.456158",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 1660",
+    "price": 228.92,
+    "performance": 11615,
+    "id": 267,
+    "created_at": "2026-05-25T01:04:06.925446",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 980",
+    "price": 248.45,
+    "performance": 11078,
+    "id": 280,
+    "created_at": "2026-05-25T01:04:12.392258",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce RTX 3050 6GB",
+    "price": 209.99,
+    "performance": 10758,
+    "id": 285,
+    "created_at": "2026-05-25T01:04:14.534266",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 1650 SUPER",
+    "price": 345.0,
+    "performance": 10189,
+    "id": 296,
+    "created_at": "2026-05-25T01:04:19.168764",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 1060",
+    "price": 299.0,
+    "performance": 10042,
+    "id": 302,
+    "created_at": "2026-05-25T01:04:21.785043",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 1060 3GB",
+    "price": 279.99,
+    "performance": 9840,
+    "id": 307,
+    "created_at": "2026-05-25T01:04:23.871756",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 970",
+    "price": 359.0,
+    "performance": 9640,
+    "id": 312,
+    "created_at": "2026-05-25T01:04:25.959296",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 6500 XT",
+    "price": 207.99,
+    "performance": 9631,
+    "id": 313,
+    "created_at": "2026-05-25T01:04:26.368860",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon R9 Fury",
+    "price": 443.1,
+    "performance": 9526,
+    "id": 320,
+    "created_at": "2026-05-25T01:04:29.370228",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 780 Ti",
+    "price": 410.0,
+    "performance": 9454,
+    "id": 324,
+    "created_at": "2026-05-25T01:04:31.117916",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 590",
+    "price": 549.99,
+    "performance": 9291,
+    "id": 332,
+    "created_at": "2026-05-25T01:04:34.477029",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 5500 XT",
+    "price": 489.0,
+    "performance": 9067,
+    "id": 341,
+    "created_at": "2026-05-25T01:04:38.348983",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 5500",
+    "price": 159.99,
+    "performance": 8857,
+    "id": 347,
+    "created_at": "2026-05-25T01:04:40.883348",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon R9 295X2",
+    "price": 499.1,
+    "performance": 8816,
+    "id": 348,
+    "created_at": "2026-05-25T01:04:41.303146",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 580",
+    "price": 249.99,
+    "performance": 8789,
+    "id": 351,
+    "created_at": "2026-05-25T01:04:42.578531",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 480",
+    "price": 339.99,
+    "performance": 8528,
+    "id": 354,
+    "created_at": "2026-05-25T01:04:43.839434",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 780",
+    "price": 279.99,
+    "performance": 7959,
+    "id": 376,
+    "created_at": "2026-05-25T01:04:53.269244",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 1650",
+    "price": 299.99,
+    "performance": 7872,
+    "id": 380,
+    "created_at": "2026-05-25T01:04:55.040099",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 6400",
+    "price": 226.64,
+    "performance": 7738,
+    "id": 387,
+    "created_at": "2026-05-25T01:04:57.938943",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 1050 Ti",
+    "price": 129.98,
+    "performance": 6363,
+    "id": 451,
+    "created_at": "2026-05-25T01:05:25.060336",
+    "updated_at": null
+  },
+  {
+    "name": "Intel Arc A380",
+    "price": 139.99,
+    "performance": 6308,
+    "id": 455,
+    "created_at": "2026-05-25T01:05:26.747628",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 960",
+    "price": 200.0,
+    "performance": 6142,
+    "id": 467,
+    "created_at": "2026-05-25T01:05:31.889113",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon R9 380X",
+    "price": 349.99,
+    "performance": 6127,
+    "id": 468,
+    "created_at": "2026-05-25T01:05:32.304857",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 770",
+    "price": 249.0,
+    "performance": 5962,
+    "id": 476,
+    "created_at": "2026-05-25T01:05:35.639999",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon R9 380",
+    "price": 89.99,
+    "performance": 5959,
+    "id": 477,
+    "created_at": "2026-05-25T01:05:36.088340",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 680",
+    "price": 399.0,
+    "performance": 5604,
+    "id": 505,
+    "created_at": "2026-05-25T01:05:47.937187",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon HD 7990",
+    "price": 589.96,
+    "performance": 5565,
+    "id": 508,
+    "created_at": "2026-05-25T01:05:49.250836",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 690",
+    "price": 280.99,
+    "performance": 5465,
+    "id": 522,
+    "created_at": "2026-05-25T01:05:55.296433",
+    "updated_at": null
+  },
+  {
+    "name": "Intel Arc A310",
+    "price": 139.99,
+    "performance": 5461,
+    "id": 524,
+    "created_at": "2026-05-25T01:05:56.155095",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 670",
+    "price": 193.98,
+    "performance": 5366,
+    "id": 528,
+    "created_at": "2026-05-25T01:05:57.894788",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 950",
+    "price": 155.0,
+    "performance": 5353,
+    "id": 529,
+    "created_at": "2026-05-25T01:05:58.325739",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 760 Ti",
+    "price": 297.5,
+    "performance": 5306,
+    "id": 535,
+    "created_at": "2026-05-25T01:06:00.931830",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 1050",
+    "price": 389.0,
+    "performance": 5047,
+    "id": 563,
+    "created_at": "2026-05-25T01:06:13.025088",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 1630",
+    "price": 189.99,
+    "performance": 4983,
+    "id": 570,
+    "created_at": "2026-05-25T01:06:16.038852",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon R9 270X",
+    "price": 326.5,
+    "performance": 4874,
+    "id": 578,
+    "created_at": "2026-05-25T01:06:19.604562",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 760",
+    "price": 149.0,
+    "performance": 4823,
+    "id": 586,
+    "created_at": "2026-05-25T01:06:23.072506",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon R9 370",
+    "price": 159.99,
+    "performance": 4722,
+    "id": 600,
+    "created_at": "2026-05-25T01:06:29.056678",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 580",
+    "price": 488.59,
+    "performance": 4630,
+    "id": 606,
+    "created_at": "2026-05-25T01:06:31.577684",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon HD 7870",
+    "price": 176.0,
+    "performance": 4565,
+    "id": 611,
+    "created_at": "2026-05-25T01:06:33.642503",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 660 Ti",
+    "price": 144.0,
+    "performance": 4412,
+    "id": 632,
+    "created_at": "2026-05-25T01:06:42.378949",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 460",
+    "price": 166.81,
+    "performance": 4098,
+    "id": 658,
+    "created_at": "2026-05-25T01:06:53.196784",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 480",
+    "price": 169.99,
+    "performance": 4078,
+    "id": 661,
+    "created_at": "2026-05-25T01:06:54.442696",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 660",
+    "price": 295.0,
+    "performance": 4048,
+    "id": 663,
+    "created_at": "2026-05-25T01:06:55.276824",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 570",
+    "price": 149.99,
+    "performance": 3936,
+    "id": 675,
+    "created_at": "2026-05-25T01:07:00.250626",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon HD 7850",
+    "price": 174.99,
+    "performance": 3903,
+    "id": 678,
+    "created_at": "2026-05-25T01:07:01.496028",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 750 Ti",
+    "price": 105.99,
+    "performance": 3899,
+    "id": 679,
+    "created_at": "2026-05-25T01:07:01.913842",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 560",
+    "price": 243.93,
+    "performance": 3681,
+    "id": 721,
+    "created_at": "2026-05-25T01:07:20.098927",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 590",
+    "price": 435.0,
+    "performance": 3341,
+    "id": 759,
+    "created_at": "2026-05-25T01:08:42.983051",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 750",
+    "price": 86.99,
+    "performance": 3291,
+    "id": 770,
+    "created_at": "2026-05-25T01:08:47.594202",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon R7 260X",
+    "price": 139.99,
+    "performance": 3203,
+    "id": 783,
+    "created_at": "2026-05-25T01:08:53.069773",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 470",
+    "price": 59.99,
+    "performance": 3165,
+    "id": 788,
+    "created_at": "2026-05-25T01:08:55.164250",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon R7 360",
+    "price": 145.99,
+    "performance": 3122,
+    "id": 797,
+    "created_at": "2026-05-25T01:08:58.990470",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon HD 6990",
+    "price": 498.49,
+    "performance": 3118,
+    "id": 799,
+    "created_at": "2026-05-25T01:08:59.838503",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon HD 7790",
+    "price": 139.99,
+    "performance": 3090,
+    "id": 803,
+    "created_at": "2026-05-25T01:09:01.519907",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 560 Ti",
+    "price": 129.99,
+    "performance": 3079,
+    "id": 805,
+    "created_at": "2026-05-25T01:09:02.385705",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon R9 360",
+    "price": 133.89,
+    "performance": 3031,
+    "id": 814,
+    "created_at": "2026-05-25T01:09:06.184943",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon R7 260",
+    "price": 89.99,
+    "performance": 2891,
+    "id": 833,
+    "created_at": "2026-05-25T01:09:14.303292",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon HD 6970",
+    "price": 149.99,
+    "performance": 2830,
+    "id": 843,
+    "created_at": "2026-05-25T01:09:18.554464",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 560",
+    "price": 205.0,
+    "performance": 2776,
+    "id": 850,
+    "created_at": "2026-05-25T01:09:21.503574",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon RX 550",
+    "price": 169.99,
+    "performance": 2695,
+    "id": 869,
+    "created_at": "2026-05-25T01:09:29.550162",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 465",
+    "price": 195.0,
+    "performance": 2645,
+    "id": 878,
+    "created_at": "2026-05-25T01:09:33.384392",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon HD 6950",
+    "price": 139.99,
+    "performance": 2594,
+    "id": 891,
+    "created_at": "2026-05-25T01:09:38.797246",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 650 Ti",
+    "price": 93.05,
+    "performance": 2535,
+    "id": 907,
+    "created_at": "2026-05-25T01:09:45.384350",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GT 1030",
+    "price": 119.99,
+    "performance": 2399,
+    "id": 931,
+    "created_at": "2026-05-25T01:09:55.271970",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon HD 5970",
+    "price": 721.2,
+    "performance": 2290,
+    "id": 965,
+    "created_at": "2026-05-25T01:10:09.581071",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon R7 250X",
+    "price": 194.0,
+    "performance": 2268,
+    "id": 973,
+    "created_at": "2026-05-25T01:10:12.961505",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 460",
+    "price": 89.99,
+    "performance": 2265,
+    "id": 974,
+    "created_at": "2026-05-25T01:10:13.383450",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon HD 6870",
+    "price": 272.06,
+    "performance": 2199,
+    "id": 998,
+    "created_at": "2026-05-25T01:10:23.936500",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon HD 5870",
+    "price": 424.7,
+    "performance": 2182,
+    "id": 1003,
+    "created_at": "2026-05-25T01:10:26.035826",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon HD 7770",
+    "price": 300.0,
+    "performance": 2176,
+    "id": 1006,
+    "created_at": "2026-05-25T01:10:27.314365",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 745",
+    "price": 284.95,
+    "performance": 2119,
+    "id": 1020,
+    "created_at": "2026-05-25T01:10:33.352701",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 460 v2",
+    "price": 199.99,
+    "performance": 2064,
+    "id": 1036,
+    "created_at": "2026-05-25T01:10:39.943936",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon R9 350",
+    "price": 68.5,
+    "performance": 2008,
+    "id": 1053,
+    "created_at": "2026-05-25T01:10:46.901088",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 460 SE",
+    "price": 159.99,
+    "performance": 1990,
+    "id": 1062,
+    "created_at": "2026-05-25T01:10:50.613880",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon HD 5850",
+    "price": 288.99,
+    "performance": 1941,
+    "id": 1080,
+    "created_at": "2026-05-25T01:10:58.022632",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon HD 6850",
+    "price": 210.92,
+    "performance": 1929,
+    "id": 1084,
+    "created_at": "2026-05-25T01:10:59.667537",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon R7 450",
+    "price": 299.0,
+    "performance": 1875,
+    "id": 1104,
+    "created_at": "2026-05-25T01:11:07.926657",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 560 SE",
+    "price": 89.99,
+    "performance": 1873,
+    "id": 1107,
+    "created_at": "2026-05-25T01:11:09.162358",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 650",
+    "price": 228.88,
+    "performance": 1758,
+    "id": 1155,
+    "created_at": "2026-05-25T01:11:28.927330",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon HD 5830",
+    "price": 258.99,
+    "performance": 1724,
+    "id": 1168,
+    "created_at": "2026-05-25T01:11:34.285009",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon HD 7750",
+    "price": 149.99,
+    "performance": 1703,
+    "id": 1174,
+    "created_at": "2026-05-25T01:11:36.768552",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon HD 6790",
+    "price": 294.0,
+    "performance": 1580,
+    "id": 1236,
+    "created_at": "2026-05-25T01:12:02.435963",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 550 Ti",
+    "price": 99.99,
+    "performance": 1558,
+    "id": 1245,
+    "created_at": "2026-05-25T01:12:06.173262",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon HD 4890",
+    "price": 89.99,
+    "performance": 1545,
+    "id": 1247,
+    "created_at": "2026-05-25T01:12:07.004762",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 285",
+    "price": 119.99,
+    "performance": 1476,
+    "id": 1278,
+    "created_at": "2026-05-25T01:12:19.853824",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GT 740",
+    "price": 236.99,
+    "performance": 1420,
+    "id": 1294,
+    "created_at": "2026-05-25T01:12:26.493051",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon R9 255",
+    "price": 344.16,
+    "performance": 1391,
+    "id": 1301,
+    "created_at": "2026-05-25T01:12:29.372911",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon HD 4870",
+    "price": 163.14,
+    "performance": 1386,
+    "id": 1302,
+    "created_at": "2026-05-25T01:12:29.781788",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 275",
+    "price": 431.72,
+    "performance": 1349,
+    "id": 1313,
+    "created_at": "2026-05-25T01:12:34.351050",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon HD 5770",
+    "price": 189.99,
+    "performance": 1348,
+    "id": 1314,
+    "created_at": "2026-05-25T01:12:34.762085",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTS 450",
+    "price": 134.23,
+    "performance": 1347,
+    "id": 1315,
+    "created_at": "2026-05-25T01:12:35.183608",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 280",
+    "price": 522.78,
+    "performance": 1293,
+    "id": 1333,
+    "created_at": "2026-05-25T01:12:42.610932",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon HD 6770",
+    "price": 264.99,
+    "performance": 1271,
+    "id": 1346,
+    "created_at": "2026-05-25T01:12:47.976608",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 295",
+    "price": 159.99,
+    "performance": 1220,
+    "id": 1368,
+    "created_at": "2026-05-25T01:12:57.181625",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GTX 260",
+    "price": 285.78,
+    "performance": 1201,
+    "id": 1376,
+    "created_at": "2026-05-25T01:13:00.520119",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon HD 5750",
+    "price": 107.9,
+    "performance": 1174,
+    "id": 1388,
+    "created_at": "2026-05-25T01:13:05.527060",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GT 640",
+    "price": 109.99,
+    "performance": 1164,
+    "id": 1391,
+    "created_at": "2026-05-25T01:13:06.776148",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon HD 7730",
+    "price": 232.7,
+    "performance": 1163,
+    "id": 1393,
+    "created_at": "2026-05-25T01:13:07.613588",
+    "updated_at": null
+  },
+  {
+    "name": "GeForce GT 545",
+    "price": 55.59,
+    "performance": 1122,
+    "id": 1407,
+    "created_at": "2026-05-25T01:13:13.472060",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon R7 430",
+    "price": 52.17,
+    "performance": 1085,
+    "id": 1424,
+    "created_at": "2026-05-25T01:13:20.565712",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon R7 250",
+    "price": 52.17,
+    "performance": 1049,
+    "id": 1452,
+    "created_at": "2026-05-25T01:13:32.227796",
+    "updated_at": null
+  },
+  {
+    "name": "Radeon HD 6750",
+    "price": 79.99,
+    "performance": 1034,
+    "id": 1459,
+    "created_at": "2026-05-25T01:13:35.117032",
+    "updated_at": null
+  }
+]

@@ -60,8 +60,8 @@ def read_gpus_filtered(performance_max: int, performance_min: int, db: Session =
 
 #find all gpus
 @app.get("/gpus/", response_model=list[schemas.GPURead])
-def read_gpus(skip: int = 0, limit: int = 9999, db: Session = Depends(get_db)):
-    gpus = crud.get_gpus(db, skip=skip, limit=limit)
+def read_gpus(skip: int = 0, limit: int = 9999, Max_price: int = 9999, Min_price: int = 0, Sort_by_Pricetoperf_asc: bool = False, Sort_by_Pricetoperf_desc: bool = False, search: str = "",Sort_by_Performance_desc: bool = False, Sort_by_Performance_asc: bool = True, SortPriceAsc: bool = False, SortPriceDesc: bool = False, db: Session = Depends(get_db)):
+    gpus = crud.get_gpus(db, skip=skip, limit=limit, Max_price=Max_price, Sort_by_Pricetoperf_asc=Sort_by_Pricetoperf_asc, Sort_by_Pricetoperf_desc=Sort_by_Pricetoperf_desc, search=search, Sort_by_Performance_desc = Sort_by_Performance_desc, Sort_by_Performance_asc = Sort_by_Performance_asc, Min_price=Min_price, SortPriceAsc=SortPriceAsc, SortPriceDesc=SortPriceDesc)
     return gpus
 
 @app.delete("/gpus/{gpu_id}")

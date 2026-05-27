@@ -29,10 +29,43 @@ def get_gpu(db: Session, gpu_id : int):
     #models.GPU is the SQLAlchemy model, and query() is how you query the database for that model, filter() is how you filter the results, and first() gets the first result
     return db.query(models.GPU).filter(models.GPU.id == gpu_id).first()
 
-def get_gpus(db: Session, skip: int = 0, limit: int = 9999):
+def get_gpus(db: Session, skip: int = 0, limit: int = 9999, 
+             Max_price: int = 9999, Sort_by_Pricetoperf_asc: bool = False, 
+             Min_price: int = 0, Sort_by_Performance_desc: bool = True, search: str = "",
+             Sort_by_Performance_asc: bool =  False, Sort_by_Pricetoperf_desc: bool = False,
+             SortPriceAsc: bool = False, SortPriceDesc: bool = False
+             ):
     #this gets all the gpus in the database, skip and limit are for pagination
     #offset is how many results to skip, and limit is how many results to return
-    return db.query(models.GPU).offset(skip).limit(limit).all()
+    query = db.query(models.GPU)
+
+    # Apply price filter
+    query = query.filter(models.GPU.price <= Max_price)
+    query = query.filter(models.GPU.price >= Min_price)
+    if (SortPriceAsc):
+        query = query.order_by(models.GPU.price.asc())
+    if (SortPriceDesc):
+        query = query.order_by(models.GPU.price.desc())
+    if (search):
+        query = query.filter(models.GPU.name.ilike(f"%{search}%"))
+    
+    if Sort_by_Performance_desc:
+        query = query.order_by(models.GPU.performance.desc())
+
+    if Sort_by_Performance_asc:
+        query = query.order_by(models.GPU.performance.asc())
+
+    # Apply sorting
+    if Sort_by_Pricetoperf_asc:
+        query = query.order_by((models.GPU.price / models.GPU.performance).asc())
+    
+    if Sort_by_Pricetoperf_desc:
+        query = query.order_by((models.GPU.price / models.GPU.performance).desc())
+
+
+    query = query.offset(skip).limit(limit)
+
+    return query.all()
 
 
 def get_gpu_by_name(db: Session, gpu_name: str):
