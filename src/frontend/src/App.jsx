@@ -2,7 +2,7 @@
 import "./App.css";
 import { useEffect, useState } from "react";
 
-const APP_URL = "http://localhost:8000/gpus/"
+const APP_URL = "http://localhost:8000/gpus/?skip=0&limit=1500";
 
 function App() {
   const [gpus, setGpus] = useState([]);

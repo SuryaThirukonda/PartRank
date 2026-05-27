@@ -2,6 +2,7 @@ from sqlalchemy.orm import Session
 
 import models
 import schemas
+from typing import List
 
 #this line creates one gpu row in the database
 
@@ -28,7 +29,7 @@ def get_gpu(db: Session, gpu_id : int):
     #models.GPU is the SQLAlchemy model, and query() is how you query the database for that model, filter() is how you filter the results, and first() gets the first result
     return db.query(models.GPU).filter(models.GPU.id == gpu_id).first()
 
-def get_gpus(db: Session, skip: int = 0, limit: int = 100):
+def get_gpus(db: Session, skip: int = 0, limit: int = 9999):
     #this gets all the gpus in the database, skip and limit are for pagination
     #offset is how many results to skip, and limit is how many results to return
     return db.query(models.GPU).offset(skip).limit(limit).all()
@@ -40,3 +41,19 @@ def get_gpu_by_name(db: Session, gpu_name: str):
 def delete_gpu(db: Session, gpu: models.GPU):
     db.delete(gpu)
     db.commit()
+
+def get_gpus_filtered(db: Session, performance_min: int, performance_max: int) -> List[models.GPU]:
+    return (
+        db.query(models.GPU)
+        .filter(models.GPU.performance.between(performance_min, performance_max))
+        .all()
+    )
+
+def search_gpus_by_name(db: Session, name_query: str) -> List[models.GPU]:
+    return(
+        db.query(models.GPU)
+        .filter(models.GPU.name.ilike(f"%{name_query}%"))
+        .all()
+        #%% allows you to search for a string inside another string
+    )
+
