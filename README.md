@@ -4,11 +4,19 @@ This tool allows for easy pc building while checking compatibility, and ranking 
 
 ## Running Commands
 
-# Backend
+# Old Backend
 * FastAPI
 * cd src\backend
 * pip install -r requirements.txt
 * python -m uvicorn main:app --reload
+
+# New Backend Run with poetry
+* pip install poetry
+* cd src\backend
+* poetry add  (for adding dependencies)
+* poetry install 
+* poetry run uvicorn app.main:app --reload
+
 
 # Frontend
 * cd src\frontend
