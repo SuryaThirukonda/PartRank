@@ -12,7 +12,7 @@ This tool allows for easy pc building while checking compatibility, and ranking 
 
 # New Backend Run with poetry
 * pip install poetry
-* cd src\backend
+* cd src\backend\app
 * poetry add  (for adding dependencies)
 * poetry install 
 * poetry run uvicorn app.main:app --reload
@@ -22,3 +22,7 @@ This tool allows for easy pc building while checking compatibility, and ranking 
 * cd src\frontend
 * npm install
 * npm run dev
+
+# Alembic
+* Alembic revision --autogenerate -m "name"
+* Alembic upgrade head

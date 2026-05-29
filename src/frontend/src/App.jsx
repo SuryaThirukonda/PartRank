@@ -16,24 +16,37 @@ function App() {
   const [detailLoading, setDetailLoading] = useState(false);
   const [detailError, setDetailError] = useState(null);
 
+  function getBackendSortParams() {
+    if (sortMode === "price_asc") {
+      return { Sort_by: "price", sort_as: "asc" };
+    }
+
+    if (sortMode === "price_desc") {
+      return { Sort_by: "price", sort_as: "desc" };
+    }
+
+    if (sortMode === "value") {
+      return { Sort_by: "price_to_performance", sort_as: "asc" };
+    }
+
+    return { Sort_by: "performance", sort_as: "desc" };
+  }
+
   useEffect(() => {
     async function fetchGpus() {
       try {
         setLoading(true);
         setError(null);
 
+        const backendSortParams = getBackendSortParams();
         const params = new URLSearchParams({
           skip: "0",
           limit: String(DEFAULT_FETCH_LIMIT),
           Max_price: maxPrice === "" ? "999999" : String(maxPrice),
           Min_price: "0",
           search: "",
-          Sort_by_Performance_desc: String(sortMode === "performance"),
-          Sort_by_Performance_asc: "false",
-          Sort_by_Pricetoperf_asc: String(sortMode === "value"),
-          Sort_by_Pricetoperf_desc: "false",
-          SortPriceAsc: String(sortMode === "price_asc"),
-          SortPriceDesc: String(sortMode === "price_desc"),
+          Sort_by: backendSortParams.Sort_by,
+          sort_as: backendSortParams.sort_as,
         });
 
         const response = await fetch(`${API_BASE}?${params.toString()}`);
@@ -56,9 +69,7 @@ function App() {
     fetchGpus();
   }, [maxPrice, sortMode]);
 
-  const totalPages = useMemo(() => {
-    return Math.max(1, Math.ceil(gpus.length / PAGE_SIZE));
-  }, [gpus.length]);
+  const totalPages = useMemo(() => Math.max(1, Math.ceil(gpus.length / PAGE_SIZE)), [gpus.length]);
 
   const safeCurrentPage = Math.min(currentPage, totalPages);
   const startIndex = (safeCurrentPage - 1) * PAGE_SIZE;
