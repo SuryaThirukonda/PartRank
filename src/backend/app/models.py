@@ -1,6 +1,6 @@
 from sqlalchemy import (Column, Integer, String, Float, Boolean, DateTime, ForeignKey, Text)
 from sqlalchemy.orm import relationship
-from database import Base
+from app.database import Base
 from datetime  import datetime
 
 class GPU(Base):
@@ -12,3 +12,13 @@ class GPU(Base):
     performance = Column(Integer)
     created_at = Column(DateTime, nullable=False, default=datetime.utcnow)
     updated_at = Column(DateTime)
+
+class User(Base):
+    __tablename__ = "user"
+
+    id = Column(Integer, primary_key = True, index = True)
+    name = Column(String, index = True)
+    hashed_password = Column(String, index = True)
+    email = Column(String, nullable = True)
+    created_at = Column(DateTime, nullable = False, default = datetime.utcnow)
+

@@ -23,3 +23,7 @@ class GPURead(GPUBase):
     class Config: 
         orm_mode = True
 
+class UserBase(BaseModel):
+    name : str
+    hashed_password: str
+    email: Optional[str] = None

@@ -1,5 +1,10 @@
 from typing import List
 
+#password hashing + jwt auth
+import bcrypt
+import jwt
+from datetime import datetime, timedelta, timezone
+
 from fastapi import Depends, FastAPI, HTTPException
 from sqlalchemy.orm import Session
 from database import get_db, engine
@@ -9,6 +14,8 @@ import schemas
 import crud
 import models
 
+
+
 #allow other ports
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -17,6 +24,9 @@ import asyncio
 
 #create the tables
 models.Base.metadata.create_all(bind=engine)
+
+#keys
+
 
 
 #make fastAPI
@@ -60,8 +70,8 @@ def read_gpus_filtered(performance_max: int, performance_min: int, db: Session =
 
 #find all gpus
 @app.get("/gpus/", response_model=list[schemas.GPURead])
-def read_gpus(skip: int = 0, limit: int = 9999, Max_price: int = 9999, Min_price: int = 0, Sort_by_Pricetoperf_asc: bool = False, Sort_by_Pricetoperf_desc: bool = False, search: str = "",Sort_by_Performance_desc: bool = False, Sort_by_Performance_asc: bool = True, SortPriceAsc: bool = False, SortPriceDesc: bool = False, db: Session = Depends(get_db)):
-    gpus = crud.get_gpus(db, skip=skip, limit=limit, Max_price=Max_price, Sort_by_Pricetoperf_asc=Sort_by_Pricetoperf_asc, Sort_by_Pricetoperf_desc=Sort_by_Pricetoperf_desc, search=search, Sort_by_Performance_desc = Sort_by_Performance_desc, Sort_by_Performance_asc = Sort_by_Performance_asc, Min_price=Min_price, SortPriceAsc=SortPriceAsc, SortPriceDesc=SortPriceDesc)
+def read_gpus(skip: int = 0, limit: int = 9999, Max_price: int = 9999, Min_price: int = 0, Sort_by: str = "performance", search: str = "", sort_as: str = "asc", db: Session = Depends(get_db)):
+    gpus = crud.get_gpus(db, skip=skip, limit=limit, Max_price=Max_price, Min_price=Min_price, Sort_by=Sort_by, search=search, sort_as=sort_as)
     return gpus
 
 @app.delete("/gpus/{gpu_id}")
@@ -88,3 +98,4 @@ def clear_gpus(db: Session = Depends(get_db)):
     for gpu in gpus:
         crud.delete_gpu(db, gpu=gpu)
     return {"detail": "All GPUs deleted"}
+
